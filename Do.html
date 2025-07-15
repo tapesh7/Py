@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(to right, #141e30, #243b55);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      color: white;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    a.download-btn {
+      display: inline-block;
+      text-decoration: none;
+      background: #00c6ff;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    a.download-btn:hover {
+      background: #0072ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Download Elon Musk's Photo</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society_%28crop2%29.jpg" alt="Elon Musk">
+    <br><br>
+    <a class="download-btn" href="https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society_%28crop2%29.jpg" download="Elon-Musk.jpg">
+      Download Now
+    </a>
+  </div>
+
+</body>
+</html>
